@@ -6,7 +6,7 @@
 ### TL;DR
 
 ```sh
-$ npm install -g react-app
+$ npm install -g react-app-telesoho
 $ react-app new
 $ react-app run
 ```
@@ -38,7 +38,7 @@ $ react-app run
 
 ### Getting Started
 
-Install [`react-app`](https://www.npmjs.com/package/react-app) npm package globally. 
+Install [`react-app`](https://www.npmjs.com/package/react-app-telesoho) npm package globally. 
 
 ```sh
 $ npm install -g react-app

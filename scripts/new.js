@@ -56,6 +56,6 @@ module.exports = () => Promise.resolve()
     console.log();
     console.log('All done! Now you can launch your app by running: npm start');
     console.log();
-    console.log('For more information visit https://github.com/kriasoft/react-app');
+    console.log('For more information visit https://github.com/telesoho/react-app');
     console.log();
   });

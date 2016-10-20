@@ -52,7 +52,7 @@ function checkIfCurrentWorkingDirectoryIsEmpty() {
 }
 
 function installReactTools() {
-  // Don't install react-app-tools in test mode
+  // Don't install react-app-tools-telesoho in test mode
   if (process.env.TEST_SDK === 'true') {
     return Promise.resolve();
   }
@@ -67,7 +67,7 @@ function installReactTools() {
 
   return new Promise((resolve, reject) => {
     const tagMatch = pkg.version.match(/-([a-z]+)\./); // '1.0.0-beta.2' => 'beta'
-    const module = tagMatch ? `react-app-tools@${tagMatch[1]}` : 'react-app-tools';
+    const module = tagMatch ? `react-app-tools-telesoho@${tagMatch[1]}` : 'react-app-tools-telesoho';
     console.log(`Installing '${module}' from npm... This may take a couple minutes.`);
 
     const npm = /^win/.test(process.platform) ? 'npm.cmd' : 'npm';
@@ -91,7 +91,7 @@ function run(command) {
 
   // eslint-disable-next-line global-require, import/no-unresolved
   return require(
-    path.resolve(process.cwd(), './node_modules/react-app-tools/run')
+    path.resolve(process.cwd(), './node_modules/react-app-tools-telesoho/run')
   )(command);
 }
 
@@ -131,7 +131,7 @@ if (command === 'new') {
       // eslint-disable-next-line global-require
       ? require(path.resolve(__dirname, '../scripts/new'))()
       // eslint-disable-next-line global-require, import/no-unresolved
-      : require(path.resolve(process.cwd(), './node_modules/react-app-tools/scripts/new'))())
+      : require(path.resolve(process.cwd(), './node_modules/react-app-tools-telesoho/scripts/new'))())
     )
     .catch(err => {
       console.error(process.argv.includes('--verbose') ? err.stack : `ERROR: ${err.message}`);
@@ -181,5 +181,5 @@ if (command === 'new') {
   console.log();
   console.log(' For more information visit:');
   console.log();
-  console.log('   https://github.com/kriasoft/react-app');
+  console.log('   https://github.com/telesoho/react-app');
 }

@@ -14,7 +14,7 @@
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
-    "react-app-tools": "^1.1.2"
+    "react-app-tools-telesoho": "git+https://github.com/telesoho/react-app.git"
   },
   "babel": {
     "presets": [

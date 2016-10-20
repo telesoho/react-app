@@ -8,5 +8,8 @@ tools/node_modules
 tools/npm-debug.log
 *.tgz
 
+#vscode
+.vscode/
+
 # Misc
 temp

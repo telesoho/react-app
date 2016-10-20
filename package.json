@@ -1,11 +1,11 @@
 {
-  "name": "react-app-tools",
-  "version": "1.1.2",
+  "name": "react-app-tools-telesoho",
+  "version": "1.0.2",
   "description": "Boilerplate and tooling for JavaScript application development with React",
-  "repository": "kriasoft/react-app",
-  "author": "Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
+  "repository": "telesoho/react-app",
+  "author": "telesoho <telesoho@gmail.com> (https://www.telesoho.com)",
   "contributors": [
-    "Konstantin Tarkus <hello@tarkus.me> (https://tarkus.me)"
+    "tanbunko <tanbunko@gmail.com> (https://www.telesoho.com)"
   ],
   "license": "MIT",
   "keywords": [
@@ -91,7 +91,7 @@
     "webpack-hot-middleware": "^2.12.2"
   },
   "optionalDependencies": {
-    "react-app": "^1.1.2"
+    "react-app-telesoho": "^1.0.4"
   },
   "devDependencies": {
     "history": "^3.0.0",
