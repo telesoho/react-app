@@ -1,12 +1,9 @@
-# React App SDK &nbsp; <a href="https://github.com/kriasoft/react-app/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-app.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactSDK"><img src="https://img.shields.io/twitter/follow/ReactSDK.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
+# React App SDK 
 
 **CLI tool and templates** for authoring **[React](https://facebook.github.io/react/)** applications with a single dev dependency and zero build/run configuration. 
 
-
-### TL;DR
-
 ```sh
-$ npm install -g react-app
+$ npm install -g react-app-telesoho
 $ react-app new
 $ react-app run
 ```
@@ -38,10 +35,10 @@ $ react-app run
 
 ### Getting Started
 
-Install [`react-app`](https://www.npmjs.com/package/react-app) npm package globally. 
+Install [`react-app`](https://www.npmjs.com/package/react-app-telesoho) npm package globally. 
 
 ```sh
-$ npm install -g react-app
+$ npm install -g react-app-telesoho
 ```
 
 Scaffold a new JavaScript application project and launch it by running:
@@ -53,7 +50,7 @@ $ react-app run
 
 The app should become available at [http://localhost:3000](http://localhost:3000)
 
-For more information visit [`/templates/app`](https://github.com/kriasoft/react-app/tree/master/templates/app)
+For more information visit [`/templates/app`](https://github.com/telesoho/react-app/tree/master/templates/app)
 
 
 ### How to Customize
@@ -64,7 +61,7 @@ Coming soon...
 ### Escape Hatch
 
 If you’re a power user and you aren’t happy with the default configuration, you can always
-[fork `react-app` repository](https://github.com/kriasoft/react-app/fork), customize it and use it
+[fork `react-app` repository](https://github.com/telesoho/react-app/fork), customize it and use it
 instead of of the original `react-app-tools` npm module. For example (`package.json`):
 
 ```js
@@ -76,7 +73,7 @@ instead of of the original `react-app-tools` npm module. For example (`package.j
     "react-dom": "^15.2.1"
   },
   "devDependencies": {
-    "react-app-tools": "git+https://github.com/<username>/react-app.git",
+    "react-app-tools-telesoho": "git+https://github.com/<username>/react-app.git",
   },
   "scripts": {
     "build": "react-app build",
@@ -112,9 +109,9 @@ requests](CONTRIBUTING.md#pull-requests)!
 
 ### License
 
-Copyright © 2016-present Kriasoft, LLC. This source code is licensed under the MIT license found in
-the [LICENSE.txt](https://github.com/kriasoft/react-app/blob/master/LICENSE.txt) file.
+This source code is licensed under the MIT license found in
+the [LICENSE.txt](https://github.com/telesoho/react-app/blob/master/LICENSE.txt) file.
 
 
 ---
-Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/kriasoft/react-app/graphs/contributors)
+Made with ♥ by telesoho@gmail.com
