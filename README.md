@@ -63,7 +63,7 @@ $ react-app run
 
 ### 授权方式
 
-MIT [LICENSE.txt](https://github.com/telesoho/react-app/blob/master/LICENSE.txt) file.
+MIT [LICENSE.txt](https://github.com/telesoho/react-app/blob/master/LICENSE.txt).
 
 ---
-联系方式 ♥ telesoho@gmail.com
+♥ telesoho@gmail.com
