@@ -9,16 +9,14 @@ $ react-app new
 $ react-app run
 ```
 
-**Join** [#react-app](https://gitter.im/kriasoft/react-app) chat on Gitter to stay up to date
-**Follow us** on [Twitter](https://twitter.com/ReactSDK)
-**Learn** [React.js and ES6](#learn-reactjs-and-es6)
+**学习** [React.js and ES6](#learn-reactjs-and-es6)
 
 <img src="https://koistya.github.io/files/react-app-starter-kit.png" width="100%">
 
 ### 特性
 
-&nbsp; &nbsp; ✓ 零配置，无需脚本，单一开发依赖(see [`package.json`](templates/app/package.json))<br>
-&nbsp; &nbsp; ✓ 先进的JavaScript语法([ES2015](http://babeljs.io/docs/learn-es2015/)+)，参考[Babel](http://babeljs.io/)和[TypeScript](https://www.typescriptlang.org/) (planned), 先进的CSS语法，参考[PostCSS](https://github.com/postcss/postcss)<br>
+&nbsp; &nbsp; ✓ 零配置，无需脚本，单一开发依赖(参考[`package.json`](templates/app/package.json))<br>
+&nbsp; &nbsp; ✓ 支持先进的JavaScript语法([ES2015](http://babeljs.io/docs/learn-es2015/)+)，基于[Babel](http://babeljs.io/)和[TypeScript](https://www.typescriptlang.org/) (计划), 支持先进的CSS语法，基于[PostCSS](https://github.com/postcss/postcss)<br>
 &nbsp; &nbsp; ✓ 基于组件的UI框架，参考[React](http://facebook.github.io/react/), [Webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)<br>
 &nbsp; &nbsp; ✓ 支持应用程序状态管理及时间旅行调试，参考[Redux](http://redux.js.org/) (see [`main.js`](templates/app/main.js), [`core/store.js`](templates/app/core/store.js))<br>
 &nbsp; &nbsp; ✓ 支持路由和导航，参考[`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) and [`history`](https://github.com/mjackson/history) (see [`main.js`](templates/app/main.js), [`core/router.js`](templates/app/core/router.js), [`utils/routes-loader.js`](templates/app/utils/routes-loader.js))<br>
