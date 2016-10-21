@@ -20,10 +20,10 @@ $ react-app run
 &nbsp; &nbsp; ✓ 零配置，无需脚本，单一开发依赖(see [`package.json`](templates/app/package.json))<br>
 &nbsp; &nbsp; ✓ 先进的JavaScript语法([ES2015](http://babeljs.io/docs/learn-es2015/)+)，参考[Babel](http://babeljs.io/)和[TypeScript](https://www.typescriptlang.org/) (planned), 先进的CSS语法，参考[PostCSS](https://github.com/postcss/postcss)<br>
 &nbsp; &nbsp; ✓ 基于组件的UI框架，参考[React](http://facebook.github.io/react/), [Webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)<br>
-&nbsp; &nbsp; ✓ 支持应用程序状态管理 /w 时间旅行跟踪调试，参考[Redux](http://redux.js.org/) (see [`main.js`](templates/app/main.js), [`core/store.js`](templates/app/core/store.js))<br>
+&nbsp; &nbsp; ✓ 支持应用程序状态管理及时间旅行调试，参考[Redux](http://redux.js.org/) (see [`main.js`](templates/app/main.js), [`core/store.js`](templates/app/core/store.js))<br>
 &nbsp; &nbsp; ✓ 支持路由和导航，参考[`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) and [`history`](https://github.com/mjackson/history) (see [`main.js`](templates/app/main.js), [`core/router.js`](templates/app/core/router.js), [`utils/routes-loader.js`](templates/app/utils/routes-loader.js))<br>
 &nbsp; &nbsp; ✓ 支持代码切割[Code-splitting](https://github.com/webpack/docs/wiki/code-splitting)和异步块加载参考[Webpack](https://webpack.github.io/)及[ES6 System.import()](http://www.2ality.com/2014/09/es6-modules-final.html)<br>
-&nbsp; &nbsp; ✓ 支持跨设备测试[Browsersync](https://browsersync.io/) /w 模块热加载([HMR](https://webpack.github.io/docs/hot-module-replacement.html))及[React Hot Loader](http://gaearon.github.io/react-hot-loader/)<br>
+&nbsp; &nbsp; ✓ 支持跨设备测试[Browsersync](https://browsersync.io/) 模块热加载([HMR](https://webpack.github.io/docs/hot-module-replacement.html))及[React Hot Loader](http://gaearon.github.io/react-hot-loader/)<br>
 
 
 ### 需求
