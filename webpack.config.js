@@ -1,5 +1,5 @@
 /**
- * React App SDK (https://github.com/kriasoft/react-app)
+ * React App SDK (https://github.com/telesoho/react-app)
  *
  * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
  *
@@ -18,6 +18,7 @@ const pkg = require(path.resolve(process.cwd(), './package.json'));
 const debug = process.env.NODE_ENV === 'development';
 const verbose = process.env.VERBOSE === 'true';
 const hmr = process.env.HMR === 'true';
+const cssmodel = process.env.CSSMODEL === 'false';
 
 const babelConfig = Object.assign({}, pkg.babel, {
   babelrc: false,
@@ -104,7 +105,7 @@ const config = {
           `css-loader?${JSON.stringify({
             sourceMap: debug,
             // CSS Modules https://github.com/css-modules/css-modules
-            modules: true,
+            modules: cssmodel,
             localIdentName: debug ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
             // CSS Nano http://cssnano.co/options/
             minimize: !debug,
